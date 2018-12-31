@@ -1,4 +1,5 @@
 def holiday_greeting(holiday = "Fourth of July", to = "Beyonce", from = "Jay-Z")
-  puts "Happy #{holiday}, #{to}! From " + from
+  puts "Happy #{holiday}, #{to}! From " + from.upcase
 end
 holiday_greeting
+holiday_greeting(to = "Jlo", from = "pitbull")
